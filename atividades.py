@@ -22,7 +22,7 @@ def cincoTimes():
     # array que contem times
     times = ['Real Madrid', 'Manchester City',
     'Manchester United', 'Barcelona', 'Paysandu'];
-
+    # Percorre o array imprimindo o conteudo de seus indices
     for time in times:
         print(time);
 
@@ -43,6 +43,7 @@ def imparOuPar():
 
 def ePrimo():
     numero = int(input('Digite  um número: '));
+    # cria array vazio
     divisores = [];
     
     # loop percorendo todos os numeros de 0 a ele mesmo, e vendo os divisiveis
